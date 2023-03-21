@@ -2,6 +2,7 @@ package com.Utils;
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.WebDriver;
@@ -31,11 +32,12 @@ public class Utils {
 	public static WebDriver driver = Helper.getDriver(); //getting driver which is already initialized in helper class
 
 	public static boolean webClick(WebElement element) {
+		//to avoid no such element found exception
 		try {
 			WebElement ele = new WebDriverWait(driver, Duration.ofSeconds(10)).
 					until(ExpectedConditions.visibilityOf(element));
 			
-			
+			//to check if an element is visible on a page
 			if(ele.isDisplayed()) {
 				if(ele.isEnabled()) {
 					try {
@@ -43,6 +45,7 @@ public class Utils {
 						return true;
 					}
 					catch(Exception e) {
+						//to avoid undefined element exception
 						((JavascriptExecutor) driver).executeScript("arguments[0].click();", ele);
 					}	
 				}
@@ -61,11 +64,12 @@ public class Utils {
 	}
 
 	public static boolean webSendKeys(WebElement element, String text) {
+		//to avoid no such element found exception
 		try {
 			WebElement ele = new WebDriverWait(driver, Duration.ofSeconds(10)).
 					until(ExpectedConditions.visibilityOf(element));
 		
-		
+		//to check if the element is displayed to locate
 		if(ele.isDisplayed()) {
 			if(ele.isEnabled()) {
 				try {
@@ -74,6 +78,7 @@ public class Utils {
 					return true;
 				}
 				catch(Exception e) {
+					//to avoid element not found exception
 					((JavascriptExecutor) driver).executeScript("arguments[0].value='"+text+"';", ele);
 				}	
 			}
@@ -90,4 +95,13 @@ public class Utils {
 	}
 	return false;
 }
+	public static boolean enterPythonCode(WebElement element, String code) {
+		Loggerload.info("Before sending keys to " + element.getText() );
+		try {
+			new Actions(driver).sendKeys(element, code).perform();
+		} catch(Exception e) {
+			element.sendKeys(code);
+		}
+		return true;
+	}
 }

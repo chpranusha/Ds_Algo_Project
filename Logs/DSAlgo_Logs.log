@@ -1,0 +1,18 @@
+[INFO ] 2023-03-21 11:23:15.101 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-21 11:23:15.107 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-21 11:23:15.109 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-21 11:23:15.357 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-21 11:23:15.358 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-21 11:23:15.358 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-21 11:23:22.109 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-21 11:23:23.014 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-21 11:23:23.359 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-21 11:23:23.627 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-21 11:23:23.884 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-21 11:23:25.481 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-21 11:23:26.895 [main] Loggerload - Click on dsIntro Time Complexity link
+[INFO ] 2023-03-21 11:23:28.343 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-21 11:23:29.149 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-21 11:23:29.169 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-21 11:23:30.642 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-21 11:23:30.961 [main] Loggerload - Closing Driver
