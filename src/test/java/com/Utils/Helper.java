@@ -4,6 +4,8 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
@@ -11,6 +13,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Helper {
 	private static Helper Helper;    
 	private static WebDriver driver ;
+
 	//public final static int TIMEOUT = 2;
 	public final static int TIMEOUT = 2;
 
@@ -44,8 +47,8 @@ public class Helper {
 //
 //		options.merge(capabilities);
 		
-		
-//	    ChromeOptions options = new ChromeOptions();
+//		
+//   ChromeOptions options = new ChromeOptions();
 //
 //		options.addArguments("--remote-allow-origins=*");
 //
@@ -54,7 +57,7 @@ public class Helper {
 //	    cp.setCapability(ChromeOptions.CAPABILITY, options);
 //
 //	options.merge(cp);
-//	
+	
 
 
 		//pass options as argument to chromedriver

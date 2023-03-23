@@ -1,6 +1,7 @@
 package com.Pageobjects;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -29,30 +30,30 @@ public class DataStructures {
 	@FindBy(xpath ="//button[text()='Run']")
 	WebElement runBtn;
 	
-	public void clickGetStartedDs() throws InterruptedException {
+	public void clickGetStartedDs() throws Exception  {
 		Thread.sleep(1000);
 		Loggerload.info("Click on dsIntro "+ getStartedLinkDs.getText()+ " link");
 		Utils.webClick(getStartedLinkDs);
 	}
 	
-	public void clickTimeComplexityLink() throws InterruptedException {
+	public void clickTimeComplexityLink() throws Exception {
 		Thread.sleep(1000);
 		Loggerload.info("Click on dsIntro "+ timeComplexityLink.getText()+ " link");
 		Utils.webClick(timeComplexityLink);
 	}
 	
-	public void clickTryHereLink() throws InterruptedException {
+	public void clickTryHereLink() throws Exception {
 		Thread.sleep(1000);
 		Loggerload.info("Click on dsIntro "+ tryHereLink.getText()+ " link");
 		Utils.webClick(tryHereLink);
 	}
 	
-	public void enterCode(String pythonCode) throws InterruptedException {
+	public void enterCode(String pythonCode) throws Exception {
 		Loggerload.info("Entering code on dsIntro "+ textEditor.getText()+ " text field");
 		Utils.enterPythonCode(textEditor, pythonCode);
 	} 
 	
-	public void clickRunBtn() throws InterruptedException {
+	public void clickRunBtn() throws Exception {
 		Thread.sleep(1000);
 		Loggerload.info("Click on dsIntro "+ runBtn.getText()+ " button");
 		Utils.webClick(runBtn);
