@@ -1,0 +1,371 @@
+[INFO ] 2023-03-23 09:53:19.621 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 09:53:19.626 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 09:53:19.633 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 09:53:19.962 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 09:53:19.963 [main] Loggerload - [@register, @allnumeric] : Register validation with invalid inputs/  password format all numeric
+[INFO ] 2023-03-23 09:53:19.963 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 09:53:27.444 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 09:53:27.942 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-23 09:53:28.270 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-23 09:53:28.497 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-23 09:53:28.680 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-23 09:53:28.858 [main] Loggerload - click on RegisterPage  button
+[ERROR] 2023-03-23 09:53:30.251 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 09:53:31.276 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 10:03:41.906 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 10:03:41.913 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 10:03:41.918 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 10:03:42.384 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:03:42.390 [main] Loggerload - [@register, @allnumeric] : Register validation with invalid inputs/  password format all numeric
+[INFO ] 2023-03-23 10:03:42.392 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:03:49.827 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 10:03:50.367 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-23 10:03:50.727 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-23 10:03:51.030 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-23 10:03:51.276 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-23 10:03:51.478 [main] Loggerload - click on RegisterPage  button
+[ERROR] 2023-03-23 10:03:52.740 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:03:53.578 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 10:05:15.975 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 10:05:15.985 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 10:05:15.989 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 10:05:16.266 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:05:16.267 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-23 10:05:16.268 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:05:23.871 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 10:05:25.324 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 10:05:25.645 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 10:05:25.961 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 10:05:26.195 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-23 10:05:27.667 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-23 10:05:29.130 [main] Loggerload - Click on dsIntro Time Complexity link
+[INFO ] 2023-03-23 10:05:30.441 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-23 10:05:31.214 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-23 10:05:31.243 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-23 10:05:32.689 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-23 10:05:33.053 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 10:22:36.638 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 10:22:36.657 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 10:22:36.659 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 10:22:37.784 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:22:37.784 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-23 10:22:37.787 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:22:46.402 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 10:22:47.161 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 10:22:47.660 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 10:22:48.064 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 10:22:48.386 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-23 10:22:49.972 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-23 10:22:51.492 [main] Loggerload - Click on dsIntro Time Complexity link
+[INFO ] 2023-03-23 10:22:52.936 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-23 10:22:53.838 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-23 10:22:53.885 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-23 10:22:55.551 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-23 10:22:55.987 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 10:23:51.817 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 10:23:51.822 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 10:23:51.822 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 10:23:52.182 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:23:52.182 [main] Loggerload - [@linkedlist] : Launch the url
+[INFO ] 2023-03-23 10:23:52.183 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:24:01.630 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 10:24:01.639 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 10:24:01.643 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 10:24:01.959 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:01.960 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-23 10:24:01.960 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:24:02.680 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 10:24:03.966 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 10:24:04.639 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:04.661 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-23 10:24:04.666 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 10:24:04.732 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:08.311 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:08.312 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-23 10:24:08.313 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 10:24:10.376 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:11.521 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:11.521 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-23 10:24:11.521 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:24:13.329 [main] Loggerload - click on getStartedPage Get Started button
+[ERROR] 2023-03-23 10:24:13.593 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:14.350 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 10:24:14.788 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:14.788 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-23 10:24:14.789 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:24:15.061 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 10:24:15.507 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 10:24:15.850 [main] Loggerload - click on LoginPage  button
+[ERROR] 2023-03-23 10:24:16.864 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:17.598 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-23 10:24:17.687 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:17.691 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-23 10:24:17.694 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:24:19.417 [main] Loggerload - Click on dsIntro Time Complexity link
+[ERROR] 2023-03-23 10:24:19.863 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:20.836 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:20.837 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-23 10:24:20.855 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 10:24:21.191 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-23 10:24:22.231 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-23 10:24:22.261 [main] Loggerload - Before sending keys to 
+[ERROR] 2023-03-23 10:24:22.725 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:22.824 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 10:24:22.830 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-23 10:24:22.831 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 10:24:22.844 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 10:24:22.858 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 10:24:24.232 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-23 10:24:24.709 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 14:38:36.347 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 14:38:36.356 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 14:38:36.357 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 14:38:36.545 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:36.546 [main] Loggerload - [@linkedlist] : Launch the url
+[INFO ] 2023-03-23 14:38:36.547 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 14:38:45.169 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 14:38:45.716 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 14:38:46.073 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:46.073 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-23 14:38:46.074 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:46.102 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:46.907 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:46.908 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-23 14:38:46.908 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:48.939 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:49.545 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:49.545 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-23 14:38:49.545 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:50.752 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:50.798 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:50.798 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-23 14:38:50.798 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:50.855 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:50.927 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:50.927 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-23 14:38:50.931 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:50.955 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:50.984 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:50.985 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-23 14:38:50.986 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:50.998 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:51.035 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:51.037 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-23 14:38:51.038 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:38:51.049 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:38:51.063 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 14:38:55.546 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 14:38:55.558 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 14:38:55.558 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 14:38:55.794 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:38:55.794 [main] Loggerload - [@linkedlist] : Launch the url
+[INFO ] 2023-03-23 14:38:55.795 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 14:39:02.952 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 14:39:02.957 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 14:39:02.961 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 14:39:03.192 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:03.193 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-23 14:39:03.193 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 14:39:03.405 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 14:39:03.977 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 14:39:04.402 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:04.402 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-23 14:39:04.402 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:39:04.425 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:06.568 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:06.579 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-23 14:39:06.586 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:39:08.765 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:09.625 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:09.625 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-23 14:39:09.625 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 14:39:10.897 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 14:39:11.443 [main] Loggerload - click on LoginPage Sign in link
+[ERROR] 2023-03-23 14:39:11.666 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:11.941 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 14:39:12.438 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 14:39:12.572 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:12.572 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-23 14:39:12.573 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 14:39:12.762 [main] Loggerload - click on LoginPage  button
+[ERROR] 2023-03-23 14:39:13.951 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:14.007 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:14.011 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-23 14:39:14.012 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:39:14.030 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:14.054 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:14.056 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-23 14:39:14.056 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:39:14.089 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:14.127 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:39:14.128 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-23 14:39:14.128 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 14:39:14.151 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:14.174 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 14:39:14.270 [main] Loggerload - Click on dsIntro Get Started link
+[ERROR] 2023-03-23 14:39:15.698 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 14:39:15.725 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 14:41:34.366 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 14:41:34.374 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 14:41:34.377 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 14:41:34.629 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 14:41:34.630 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-23 14:41:34.630 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 14:41:41.625 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 14:41:42.171 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 14:41:42.484 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 14:41:42.755 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 14:41:42.978 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-23 14:41:44.451 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-23 14:41:45.816 [main] Loggerload - Click on dsIntro Time Complexity link
+[INFO ] 2023-03-23 14:41:47.116 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-23 14:41:47.777 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-23 14:41:47.804 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-23 14:41:49.276 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-23 14:41:49.595 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 18:54:44.359 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 18:54:44.365 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 18:54:44.371 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 18:54:44.703 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:44.703 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-23 18:54:44.704 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:49.929 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:50.752 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:50.758 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-23 18:54:50.758 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:52.852 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:53.401 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:53.402 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-23 18:54:53.402 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:55.472 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:55.917 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:55.918 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-23 18:54:55.918 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:57.063 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:57.132 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:57.140 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-23 18:54:57.142 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:57.163 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:57.194 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:57.198 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-23 18:54:57.198 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:57.214 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:57.261 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:54:57.261 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-23 18:54:57.261 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-23 18:54:57.276 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:54:57.294 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 18:56:00.947 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 18:56:00.961 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 18:56:00.973 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 18:56:01.307 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:56:01.308 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-23 18:56:01.308 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:56:07.866 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 18:56:08.478 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 18:56:09.175 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 18:56:09.495 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 18:56:09.713 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-23 18:56:11.160 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-23 18:56:12.481 [main] Loggerload - Click on dsIntro Time Complexity link
+[INFO ] 2023-03-23 18:56:13.839 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-23 18:56:14.561 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-23 18:56:14.579 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-23 18:56:16.000 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-23 18:56:16.277 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 18:57:11.932 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 18:57:11.938 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 18:57:11.941 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 18:57:12.161 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:12.161 [main] Loggerload - [@linkedlist] : Launch the url
+[INFO ] 2023-03-23 18:57:12.161 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:18.697 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 18:57:19.160 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 18:57:19.469 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 18:57:19.767 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 18:57:19.993 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-23 18:57:20.548 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:20.549 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-23 18:57:20.549 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:20.594 [main] Loggerload - Click on LinkedList Get Started button
+[INFO ] 2023-03-23 18:57:20.995 [main] Loggerload - Click on LinkedList Introduction link
+[ERROR] 2023-03-23 18:57:21.380 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:22.215 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:22.215 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-23 18:57:22.215 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:22.249 [main] Loggerload - Click on LinkedList Creating Linked LIst link
+[ERROR] 2023-03-23 18:57:22.517 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:23.032 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:23.032 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-23 18:57:23.032 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:23.068 [main] Loggerload - Click on LinkedList Types of Linked List link
+[ERROR] 2023-03-23 18:57:23.365 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:23.941 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:23.941 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-23 18:57:23.941 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:24.007 [main] Loggerload - Click on LinkedList Implement Linked List in Python link
+[ERROR] 2023-03-23 18:57:24.259 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:24.792 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:24.792 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-23 18:57:24.792 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:24.827 [main] Loggerload - Click on LinkedList Traversal link
+[ERROR] 2023-03-23 18:57:25.094 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:25.580 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:25.580 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-23 18:57:25.580 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:25.612 [main] Loggerload - Click on LinkedList Insertion link
+[ERROR] 2023-03-23 18:57:25.888 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:26.382 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:57:26.383 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-23 18:57:26.383 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:57:26.420 [main] Loggerload - Click on LinkedList Deletion link
+[ERROR] 2023-03-23 18:57:26.675 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:57:27.197 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-23 18:58:02.307 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-23 18:58:02.312 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-23 18:58:02.314 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-23 18:58:02.571 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:02.572 [main] Loggerload - [@linkedlist] : Launch the url
+[INFO ] 2023-03-23 18:58:02.572 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:09.098 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-23 18:58:09.591 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-23 18:58:09.958 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 18:58:10.301 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-23 18:58:10.546 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-23 18:58:11.082 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:11.082 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-23 18:58:11.083 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:11.140 [main] Loggerload - Click on LinkedList Get Started button
+[INFO ] 2023-03-23 18:58:11.476 [main] Loggerload - Click on LinkedList Introduction link
+[ERROR] 2023-03-23 18:58:11.794 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:12.610 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:12.610 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-23 18:58:12.611 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:12.646 [main] Loggerload - Click on LinkedList Creating Linked LIst link
+[ERROR] 2023-03-23 18:58:12.897 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:13.405 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:13.405 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-23 18:58:13.405 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:13.440 [main] Loggerload - Click on LinkedList Types of Linked List link
+[ERROR] 2023-03-23 18:58:13.734 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:14.286 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:14.286 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-23 18:58:14.287 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:14.328 [main] Loggerload - Click on LinkedList Implement Linked List in Python link
+[ERROR] 2023-03-23 18:58:14.602 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:15.119 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:15.120 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-23 18:58:15.120 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:15.154 [main] Loggerload - Click on LinkedList Traversal link
+[ERROR] 2023-03-23 18:58:15.417 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:15.909 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:15.910 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-23 18:58:15.910 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:15.978 [main] Loggerload - Click on LinkedList Insertion link
+[ERROR] 2023-03-23 18:58:16.246 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:16.735 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-23 18:58:16.735 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-23 18:58:16.736 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-23 18:58:16.786 [main] Loggerload - Click on LinkedList Deletion link
+[ERROR] 2023-03-23 18:58:17.053 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-23 18:58:17.541 [main] Loggerload - Closing Driver
