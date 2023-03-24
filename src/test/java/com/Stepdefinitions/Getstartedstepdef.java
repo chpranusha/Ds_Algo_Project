@@ -2,13 +2,19 @@ package com.Stepdefinitions;
 
 import io.cucumber.java.en.*;
 
+<<<<<<< HEAD
 import org.junit.Assert;
 
 import com.Pageobjects.Getstarted;
 import com.Utils.BaseClass;
 import com.Utils.Helper;
 
-
+=======
+import com.Pageobjects.Getstarted;
+import com.Utils.BaseClass;
+import com.Utils.Helper;
+import org.testng.Assert;
+>>>>>>> 6a7ccd5569f88436e96747f2c44a3d2dff5b622c
 
 public class Getstartedstepdef extends BaseClass{
 

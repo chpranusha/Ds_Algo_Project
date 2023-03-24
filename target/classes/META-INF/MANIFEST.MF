@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: naveenkumar
+=======
+Built-By: chpra
+>>>>>>> 6a7ccd5569f88436e96747f2c44a3d2dff5b622c
 Build-Jdk: 19.0.1
 Created-By: Maven Integration for Eclipse
 

@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6a7ccd5569f88436e96747f2c44a3d2dff5b622c
 @dscenario
 Feature: Data Structure Intro
 
@@ -19,4 +23,8 @@ Feature: Data Structure Intro
     When user enter the python code 
       | print("Data Structures Introduction")|
     And click on run button
+<<<<<<< HEAD
     Then user is navigated to home page "https://dsportalapp.herokuapp.com/home"
+=======
+    Then user is navigated to home page "https://dsportalapp.herokuapp.com/home"
+>>>>>>> 6a7ccd5569f88436e96747f2c44a3d2dff5b622c
