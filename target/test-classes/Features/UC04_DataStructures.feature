@@ -21,3 +21,6 @@ Feature: Data Structure Intro
       | print("Data Structures Introduction")|
     And click on run button
     Then user is navigated to home page "https://dsportalapp.herokuapp.com/home"
+
+    Then user is navigated to home page "https://dsportalapp.herokuapp.com/home"
+

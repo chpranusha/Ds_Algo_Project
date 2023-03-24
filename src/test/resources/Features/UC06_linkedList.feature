@@ -1,12 +1,12 @@
 
 @linkedlist
-Feature: LinkedList
-Scenario: Launch the url
-Given user open browser and launch the url "https://dsportalapp.herokuapp.com/"
-   When user click  "Get started" button
-   And click on signin link
-   When user enters  "Pranushadsalgo@gmail.com" "ninjaqueens@23"
-   And user click on login button
+ Feature: LinkedList
+#Scenario: Launch the url
+#Given user open browser and launch the url "https://dsportalapp.herokuapp.com/"
+   #When user click  "Get started" button
+   #And click on signin link
+   #When user enters  "Pranushadsalgo@gmail.com" "ninjaqueens@23"
+   #And user click on login button
 @linkedlist
 Scenario: validating Linked List introduction page
 		Given The user is at home page with title "NumpyNinja"

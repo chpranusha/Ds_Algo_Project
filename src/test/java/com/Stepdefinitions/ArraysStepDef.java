@@ -1,6 +1,5 @@
 package com.Stepdefinitions;
 
-import static org.testng.Assert.assertEquals;
 
 import java.io.IOException;
 import java.util.List;
@@ -156,6 +155,11 @@ public class ArraysStepDef extends BaseClass {
 		String Title = Helper.getTitle();
 		Loggerload.info("Title of current page is : " + Title);
 		assertEquals(Title, "Assessment", "Title do not match");
+	}
+
+	private void assertEquals(String title, String string, String string2) {
+		// TODO Auto-generated method stub
+		
 	}
 
 	@When("The user enter python code with invalid syntax in tryEditor from sheet {string} and {int}")

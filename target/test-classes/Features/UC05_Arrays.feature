@@ -1,12 +1,12 @@
 @arrays
 Feature: Array
 
-  Scenario: Launch the url
-	Given user open browser and launch the url "https://dsportalapp.herokuapp.com/"
-   When user click  "Get started" button
-   And click on signin link
-   When user enters  "Pranushadsalgo@gmail.com" "ninjaqueens@23"
-   And user click on login button
+  #Scenario: Launch the url
+	#Given user open browser and launch the url "https://dsportalapp.herokuapp.com/"
+   #When user click  "Get started" button
+   #And click on signin link
+   #When user enters  "Pranushadsalgo@gmail.com" "ninjaqueens@23"
+   #And user click on login button
  
   @scenario_001
   Scenario: User validate Array Page

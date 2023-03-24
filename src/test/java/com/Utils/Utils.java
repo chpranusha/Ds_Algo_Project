@@ -107,8 +107,8 @@ static String Excelpath = ConfigReader.getexcelfilepath(); //getexcelpath method
 		}
 		return true;
 	}
-<<<<<<< HEAD
-=======
+
+
 	
 	public static void clearCodeFirst(WebElement element) {
 		Loggerload.info("Clearing text in editor");
@@ -180,6 +180,6 @@ static String Excelpath = ConfigReader.getexcelfilepath(); //getexcelpath method
 	public static void waitForElement(WebElement element) {
 		new WebDriverWait(driver, Duration.ofSeconds(10)).until(ExpectedConditions.visibilityOf(element));		
 	}
->>>>>>> 6a7ccd5569f88436e96747f2c44a3d2dff5b622c
+
 }
 
