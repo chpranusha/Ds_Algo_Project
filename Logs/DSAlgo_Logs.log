@@ -3330,3 +3330,389 @@
 [INFO ] 2023-03-24 00:58:45.691 [main] Loggerload - Before sending keys to 
 [INFO ] 2023-03-24 00:58:46.959 [main] Loggerload - Click on dsIntro Run button
 [INFO ] 2023-03-24 00:58:47.317 [main] Loggerload - Closing Driver
+[INFO ] 2023-03-24 09:24:08.239 [main] Loggerload - Loading Config file
+[INFO ] 2023-03-24 09:24:08.244 [main] Loggerload - Get property BrowserType
+[INFO ] 2023-03-24 09:24:08.247 [main] Loggerload - Initializing driver for : chrome
+[INFO ] 2023-03-24 09:24:08.516 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:08.518 [main] Loggerload - [] : validation of Start Page
+[INFO ] 2023-03-24 09:24:08.519 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:17.736 [main] Loggerload - click on getStartedPage Get Started button
+[ERROR] 2023-03-24 09:24:22.499 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:24:23.398 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:23.399 [main] Loggerload - [@register, @register_001] : Register validation with valid inputs
+[INFO ] 2023-03-24 09:24:23.399 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:25.577 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:25.827 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:24:26.116 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:26.423 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:26.614 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:26.807 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:24:28.051 [main] Loggerload - validating on RegisterPage password_mismatch:The two password fields didn’t match. label text
+[ERROR] 2023-03-24 09:24:28.065 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:24:28.701 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:28.702 [main] Loggerload - [@register, @register_001] : Register validation with valid inputs
+[INFO ] 2023-03-24 09:24:28.702 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:30.860 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:31.104 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:24:31.370 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:31.572 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:31.738 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:31.887 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:24:33.237 [main] Loggerload - validating on RegisterPage New Account Created. You are logged in as 23210valli123@gmail.com label text
+[INFO ] 2023-03-24 09:24:33.280 [main] Loggerload - click on RegisterPage Sign out link
+[INFO ] 2023-03-24 09:24:35.512 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:35.512 [main] Loggerload - [@register, @register_002] : Register validation with invalid inputs
+[INFO ] 2023-03-24 09:24:35.512 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:37.674 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:37.940 [main] Loggerload - click on RegisterPage Register link
+[ERROR] 2023-03-24 09:24:38.129 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:24:38.608 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:38.608 [main] Loggerload - [@register, @register_003] : Register validation with invalid inputs/blank fields
+[INFO ] 2023-03-24 09:24:38.609 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:40.812 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:41.077 [main] Loggerload - click on RegisterPage Register link
+[ERROR] 2023-03-24 09:24:41.279 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:24:41.803 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:41.804 [main] Loggerload - [@register, @register_004] : Register validation with invalid inputs/blank fields
+[INFO ] 2023-03-24 09:24:41.804 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:44.486 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:44.718 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:24:44.963 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:45.139 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:45.291 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:24:46.421 [main] Loggerload - validating on RegisterPage  text field
+[ERROR] 2023-03-24 09:24:46.449 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:24:47.312 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:47.322 [main] Loggerload - [@register, @register_005] : Register validation with invalid inputs/blank fields
+[INFO ] 2023-03-24 09:24:47.323 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:49.624 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:49.912 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:24:50.176 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:50.374 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:50.557 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:24:51.720 [main] Loggerload - validating on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:51.761 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:51.766 [main] Loggerload - [@register, @register_006] : Register validation with invalid inputs/blank fields
+[INFO ] 2023-03-24 09:24:51.768 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:53.959 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:54.165 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:24:54.376 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:54.564 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:24:55.707 [main] Loggerload - validating on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:55.743 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:55.743 [main] Loggerload - [@register, @register_007] : Register validation with invalid inputs/blank fields
+[INFO ] 2023-03-24 09:24:55.743 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:24:57.946 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:24:58.180 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:24:58.400 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:58.591 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:24:59.736 [main] Loggerload - validating on RegisterPage  text field
+[INFO ] 2023-03-24 09:24:59.775 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:24:59.775 [main] Loggerload - [@register, @mismatchpwd] : Register validation with invalid inputs/ password mismatch
+[INFO ] 2023-03-24 09:24:59.775 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:01.964 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:02.177 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:25:02.408 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:02.591 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:02.728 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:02.870 [main] Loggerload - click on RegisterPage  button
+[INFO ] 2023-03-24 09:25:04.140 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:04.140 [main] Loggerload - [@register, @atleasteight] : Register validation with invalid inputs/ password format less than eight characters
+[INFO ] 2023-03-24 09:25:04.140 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:06.315 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:06.538 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:25:06.789 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:07.021 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:07.203 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:07.353 [main] Loggerload - click on RegisterPage  button
+[ERROR] 2023-03-24 09:25:08.578 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:09.078 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:09.079 [main] Loggerload - [@register, @allnumeric] : Register validation with invalid inputs/  password format all numeric
+[INFO ] 2023-03-24 09:25:09.080 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:11.205 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:11.416 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:25:11.659 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:11.816 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:11.965 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:12.106 [main] Loggerload - click on RegisterPage  button
+[ERROR] 2023-03-24 09:25:13.319 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:13.851 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:13.852 [main] Loggerload - [@register, @compareUnPwd] : Register validation with invalid inputs/ similar fields
+[INFO ] 2023-03-24 09:25:13.853 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:15.985 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:16.292 [main] Loggerload - click on RegisterPage Register link
+[INFO ] 2023-03-24 09:25:16.527 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:16.712 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:16.894 [main] Loggerload - sending keys on RegisterPage  text field
+[INFO ] 2023-03-24 09:25:17.045 [main] Loggerload - click on RegisterPage  button
+[ERROR] 2023-03-24 09:25:18.259 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:18.744 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:18.744 [main] Loggerload - [@login, @login] : signIn validation with valid inputs
+[INFO ] 2023-03-24 09:25:18.745 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:20.911 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:21.116 [main] Loggerload - click on LoginPage Sign in link
+[ERROR] 2023-03-24 09:25:21.356 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:21.806 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:21.806 [main] Loggerload - [@login, @login] : signIn validation with inValid inputs
+[INFO ] 2023-03-24 09:25:21.807 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:23.974 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:24.169 [main] Loggerload - click on LoginPage Sign in link
+[ERROR] 2023-03-24 09:25:24.361 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:24.823 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:24.823 [main] Loggerload - [@login, @login] : signIn validation with inValid inputs
+[INFO ] 2023-03-24 09:25:24.823 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:26.971 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:27.174 [main] Loggerload - click on LoginPage Sign in link
+[ERROR] 2023-03-24 09:25:27.380 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:27.833 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:27.833 [main] Loggerload - [@login, @login] : signIn validation with inValid inputs
+[INFO ] 2023-03-24 09:25:27.834 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:30.003 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:30.214 [main] Loggerload - click on LoginPage Sign in link
+[ERROR] 2023-03-24 09:25:30.408 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:25:30.871 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:30.871 [main] Loggerload - [@dscenario] : Data Structure Intro Page Validation
+[INFO ] 2023-03-24 09:25:30.871 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:33.011 [main] Loggerload - click on getStartedPage Get Started button
+[INFO ] 2023-03-24 09:25:33.228 [main] Loggerload - click on LoginPage Sign in link
+[INFO ] 2023-03-24 09:25:33.662 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-24 09:25:33.851 [main] Loggerload - sending keys on LoginPage  input field
+[INFO ] 2023-03-24 09:25:34.034 [main] Loggerload - click on LoginPage  button
+[INFO ] 2023-03-24 09:25:35.448 [main] Loggerload - Click on dsIntro Get Started link
+[INFO ] 2023-03-24 09:25:36.747 [main] Loggerload - Click on dsIntro Time Complexity link
+[INFO ] 2023-03-24 09:25:38.079 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:25:39.122 [main] Loggerload - Entering code on dsIntro  text field
+[INFO ] 2023-03-24 09:25:39.138 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:25:40.540 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:25:40.971 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:40.971 [main] Loggerload - [@arrays, @scenario_001] : User validate Array Page
+[INFO ] 2023-03-24 09:25:40.972 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:42.040 [main] Loggerload - Before click Get Started link 
+[INFO ] 2023-03-24 09:25:42.360 [main] Loggerload - Before click Arrays in Python link
+[INFO ] 2023-03-24 09:25:43.223 [main] Loggerload - Before click Arrays in Python link
+[INFO ] 2023-03-24 09:25:44.543 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:25:45.183 [main] Loggerload - Before entering text in  input field
+[INFO ] 2023-03-24 09:25:45.220 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:25:46.587 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:25:46.797 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:46.798 [main] Loggerload - [@arrays, @scenario_002] : User validate Arrays using list page
+[INFO ] 2023-03-24 09:25:46.798 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:46.842 [main] Loggerload - Before click Arrays Using List link
+[INFO ] 2023-03-24 09:25:48.180 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:25:48.501 [main] Loggerload - Before entering text in  input field
+[INFO ] 2023-03-24 09:25:48.519 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:25:49.865 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:25:50.135 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:50.136 [main] Loggerload - [@arrays, @scenario_003] : User validate Basic Operations in list page
+[INFO ] 2023-03-24 09:25:50.136 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:50.189 [main] Loggerload - Before click Basic Operations in Lists link
+[INFO ] 2023-03-24 09:25:51.511 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:25:52.131 [main] Loggerload - Before entering text in  input field
+[INFO ] 2023-03-24 09:25:52.148 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:25:53.530 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:25:53.703 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:53.703 [main] Loggerload - [@arrays, @scenario_004] : User validate Applications of Array page
+[INFO ] 2023-03-24 09:25:53.704 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:53.753 [main] Loggerload - Before click Applications of Array  link
+[INFO ] 2023-03-24 09:25:55.071 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:25:55.366 [main] Loggerload - Before entering text in  input field
+[INFO ] 2023-03-24 09:25:55.384 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:25:56.719 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:25:56.929 [main] Loggerload - Before click Practice Questions  link
+[INFO ] 2023-03-24 09:25:57.167 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:25:57.168 [main] Loggerload - [@arrays, @scenario_005] : User validate Search the array page
+[INFO ] 2023-03-24 09:25:57.169 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:25:57.219 [main] Loggerload - Before click Search the array link
+[INFO ] 2023-03-24 09:25:57.534 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:25:58.445 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:25:59.601 [main] Loggerload - Expected result from Excel sheetname pythonCode and 2 : Element Found
+[INFO ] 2023-03-24 09:26:00.624 [main] Loggerload - Click on dsIntro Run button
+[ERROR] 2023-03-24 09:26:00.786 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:01.374 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:01.374 [main] Loggerload - [@arrays, @scenario_006] : User validate Max Consecutive Ones page
+[INFO ] 2023-03-24 09:26:01.374 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-24 09:26:03.422 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:03.915 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:03.916 [main] Loggerload - [@arrays, @scenario_007] : User validate Even Number page
+[INFO ] 2023-03-24 09:26:03.916 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-24 09:26:05.976 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:06.446 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:06.447 [main] Loggerload - [@arrays, @scenario_008] : User validate Sorted Array page
+[INFO ] 2023-03-24 09:26:06.447 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[ERROR] 2023-03-24 09:26:08.488 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:08.971 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:08.971 [main] Loggerload - [@arrays, @scenario_009] : The user is able to submit code in tryEditor for Search the array link
+[INFO ] 2023-03-24 09:26:08.972 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:08.973 [main] Loggerload - The user is on Questionpage of Search the array after logged in
+[INFO ] 2023-03-24 09:26:09.228 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 3
+[INFO ] 2023-03-24 09:26:09.357 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:10.673 [main] Loggerload - Expected result from Excel sheetname pythonCode and 3 : submission success
+[INFO ] 2023-03-24 09:26:10.674 [main] Loggerload - Click on Submit button
+[INFO ] 2023-03-24 09:26:11.303 [main] Loggerload - Actual result of successful submission message :Error occurred during submission
+[INFO ] 2023-03-24 09:26:11.309 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:11.309 [main] Loggerload - [@arrays, @scenario_010] : User validate Max Consecutive Ones page
+[INFO ] 2023-03-24 09:26:11.310 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:11.311 [main] Loggerload - The user is on Questionpage of Max Consecutive Ones after logged in
+[INFO ] 2023-03-24 09:26:11.494 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 4
+[INFO ] 2023-03-24 09:26:11.629 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:13.605 [main] Loggerload - Expected result from Excel sheetname pythonCode and 4 : 2
+[INFO ] 2023-03-24 09:26:14.630 [main] Loggerload - Click on dsIntro Run button
+[ERROR] 2023-03-24 09:26:14.775 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:15.362 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:15.362 [main] Loggerload - [@arrays, @scenario_011] : The user is able to submit code in tryEditor for Max Consecutive Ones
+[INFO ] 2023-03-24 09:26:15.362 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:15.363 [main] Loggerload - The user is on Questionpage of Max Consecutive Ones after logged in
+[INFO ] 2023-03-24 09:26:15.529 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 5
+[INFO ] 2023-03-24 09:26:15.621 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:17.591 [main] Loggerload - Expected result from Excel sheetname pythonCode and 5 : submission success
+[INFO ] 2023-03-24 09:26:17.591 [main] Loggerload - Click on Submit button
+[INFO ] 2023-03-24 09:26:18.221 [main] Loggerload - Actual result of successful submission message :Error occurred during submission
+[INFO ] 2023-03-24 09:26:18.226 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:18.226 [main] Loggerload - [@arrays, @scenario_012] : User validate Even Number page
+[INFO ] 2023-03-24 09:26:18.226 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:18.226 [main] Loggerload - The user is on Questionpage of Find Numbers with Even Number of Digits after logged in
+[INFO ] 2023-03-24 09:26:18.421 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:18.540 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:19.799 [main] Loggerload - Expected result from Excel sheetname pythonCode and 6 : 2
+[INFO ] 2023-03-24 09:26:20.826 [main] Loggerload - Click on dsIntro Run button
+[ERROR] 2023-03-24 09:26:20.988 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:21.697 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:21.697 [main] Loggerload - [@arrays, @scenario_013] : The user is able to submit code in tryEditor for Find Numbers with Even Number of Digits
+[INFO ] 2023-03-24 09:26:21.698 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:21.699 [main] Loggerload - The user is on Questionpage of Find Numbers with Even Number of Digits after logged in
+[INFO ] 2023-03-24 09:26:21.914 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 7
+[INFO ] 2023-03-24 09:26:22.027 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:23.479 [main] Loggerload - Expected result from Excel sheetname pythonCode and 7 : submission success
+[INFO ] 2023-03-24 09:26:23.479 [main] Loggerload - Click on Submit button
+[INFO ] 2023-03-24 09:26:24.100 [main] Loggerload - Actual result of successful submission message :Error occurred during submission
+[INFO ] 2023-03-24 09:26:24.104 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:24.105 [main] Loggerload - [@arrays, @scenario_014] : User validate Sorted Array page
+[INFO ] 2023-03-24 09:26:24.105 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:24.107 [main] Loggerload - The user is on Questionpage of Squares of a Sorted Array after logged in
+[INFO ] 2023-03-24 09:26:24.310 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:24.405 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:26.227 [main] Loggerload - Expected result from Excel sheetname pythonCode and 8 : [4, 9, 9, 49, 121]
+[INFO ] 2023-03-24 09:26:27.257 [main] Loggerload - Click on dsIntro Run button
+[ERROR] 2023-03-24 09:26:27.412 [main] Loggerload - Steps Failed , Taking Screenshot
+[INFO ] 2023-03-24 09:26:28.018 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:28.018 [main] Loggerload - [@arrays, @scenario_015] : The user is able to submit code in tryEditor for Squares of a Sorted Array
+[INFO ] 2023-03-24 09:26:28.018 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:28.019 [main] Loggerload - The user is on Questionpage of Squares of a Sorted Array after logged in
+[INFO ] 2023-03-24 09:26:28.208 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 9
+[INFO ] 2023-03-24 09:26:28.324 [main] Loggerload - Clearing text before entering code in  enterCodePractice
+[INFO ] 2023-03-24 09:26:29.886 [main] Loggerload - Expected result from Excel sheetname pythonCode and 9 : submission success
+[INFO ] 2023-03-24 09:26:29.886 [main] Loggerload - Click on Submit button
+[INFO ] 2023-03-24 09:26:30.509 [main] Loggerload - Actual result of successful submission message : No tests were collected
+[INFO ] 2023-03-24 09:26:30.514 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:30.514 [main] Loggerload - [@arrays, @scenario_016] : The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page
+[INFO ] 2023-03-24 09:26:30.514 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:30.704 [main] Loggerload - User redirected to a page having an tryEditor with a Run button to test
+[INFO ] 2023-03-24 09:26:30.723 [main] Loggerload - Title of current page is : Assessment
+[INFO ] 2023-03-24 09:26:30.724 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-03-24 09:26:30.724 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:30.812 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:31.053 [main] Loggerload - Expected result from Excel sheetname pythonCode and 1 : hello
+[INFO ] 2023-03-24 09:26:31.078 [main] Loggerload - Before click Run  button
+[INFO ] 2023-03-24 09:26:31.218 [main] Loggerload - Actual Error message is  : NameError: name 'hello' is not defined on line 1
+[INFO ] 2023-03-24 09:26:31.226 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:31.227 [main] Loggerload - [@arrays, @scenario_017] : The user is presented with error message for code with invalid syntax in tryEditor for Search the array link
+[INFO ] 2023-03-24 09:26:31.227 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:31.229 [main] Loggerload - The user is on Questionpage of Search the array after logged in
+[INFO ] 2023-03-24 09:26:31.492 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-03-24 09:26:31.492 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:31.597 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:31.797 [main] Loggerload - Expected result from Excel sheetname pythonCode and 1 : hello
+[INFO ] 2023-03-24 09:26:31.821 [main] Loggerload - Before click Run  button
+[INFO ] 2023-03-24 09:26:31.968 [main] Loggerload - Invalid code is taken from excel and clicked on run button
+[INFO ] 2023-03-24 09:26:31.988 [main] Loggerload - Error message for invalid python code is -SyntaxError: bad input on line 1
+[INFO ] 2023-03-24 09:26:32.001 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:32.002 [main] Loggerload - [@arrays, @scenario_017] : The user is presented with error message for invalid code in tryEditor for Max Consecutive Ones
+[INFO ] 2023-03-24 09:26:32.002 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:32.003 [main] Loggerload - The user is on Questionpage of Max Consecutive Ones after logged in
+[INFO ] 2023-03-24 09:26:32.236 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-03-24 09:26:32.236 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:32.353 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:32.574 [main] Loggerload - Expected result from Excel sheetname pythonCode and 1 : hello
+[INFO ] 2023-03-24 09:26:32.600 [main] Loggerload - Before click Run  button
+[INFO ] 2023-03-24 09:26:32.716 [main] Loggerload - Invalid code is taken from excel and clicked on run button
+[INFO ] 2023-03-24 09:26:32.739 [main] Loggerload - Error message for invalid python code is -SyntaxError: bad input on line 1
+[INFO ] 2023-03-24 09:26:32.746 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:32.746 [main] Loggerload - [@arrays, @scenario_018] : The user is presented with error message for code with invalid syntax in tryEditor for Find Numbers with Even Number of Digits
+[INFO ] 2023-03-24 09:26:32.746 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:32.748 [main] Loggerload - The user is on Questionpage of Find Numbers with Even Number of Digits after logged in
+[INFO ] 2023-03-24 09:26:33.038 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-03-24 09:26:33.039 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:33.144 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:33.340 [main] Loggerload - Expected result from Excel sheetname pythonCode and 1 : hello
+[INFO ] 2023-03-24 09:26:33.370 [main] Loggerload - Before click Run  button
+[INFO ] 2023-03-24 09:26:33.483 [main] Loggerload - Invalid code is taken from excel and clicked on run button
+[INFO ] 2023-03-24 09:26:33.508 [main] Loggerload - Error message for invalid python code is -SyntaxError: bad input on line 1
+[INFO ] 2023-03-24 09:26:33.519 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:33.519 [main] Loggerload - [@arrays, @scenario_019] : The user is presented with error message for code with invalid syntax in tryEditor for Squares of a Sorted Array
+[INFO ] 2023-03-24 09:26:33.519 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:33.520 [main] Loggerload - The user is on Questionpage of Squares of a Sorted Array after logged in
+[INFO ] 2023-03-24 09:26:33.804 [main] Loggerload - The user enter valid python code in tryEditor from sheetname :pythonCode and row number : 1
+[INFO ] 2023-03-24 09:26:33.805 [main] Loggerload - Clearing text in editor
+[INFO ] 2023-03-24 09:26:33.905 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:34.131 [main] Loggerload - Expected result from Excel sheetname pythonCode and 1 : hello
+[INFO ] 2023-03-24 09:26:34.157 [main] Loggerload - Before click Run  button
+[INFO ] 2023-03-24 09:26:34.281 [main] Loggerload - Invalid code is taken from excel and clicked on run button
+[INFO ] 2023-03-24 09:26:34.300 [main] Loggerload - Error message for invalid python code is -SyntaxError: bad input on line 1
+[INFO ] 2023-03-24 09:26:34.601 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:34.601 [main] Loggerload - [@linkedlist, @linkedlist] : validating Linked List introduction page
+[INFO ] 2023-03-24 09:26:34.601 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:34.649 [main] Loggerload - Click on LinkedList Get Started button
+[INFO ] 2023-03-24 09:26:34.961 [main] Loggerload - Click on LinkedList Introduction link
+[INFO ] 2023-03-24 09:26:36.257 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:36.539 [main] Loggerload - Before entering text in  input field
+[INFO ] 2023-03-24 09:26:36.557 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:37.887 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:38.149 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:38.149 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Creating Linked List page
+[INFO ] 2023-03-24 09:26:38.149 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:38.189 [main] Loggerload - Click on LinkedList Creating Linked LIst link
+[INFO ] 2023-03-24 09:26:39.496 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:39.788 [main] Loggerload - sending text on  input field
+[INFO ] 2023-03-24 09:26:39.805 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:41.135 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:41.401 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:41.402 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Types of Linked List page
+[INFO ] 2023-03-24 09:26:41.402 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:41.470 [main] Loggerload - Click on LinkedList Types of Linked List link
+[INFO ] 2023-03-24 09:26:42.805 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:43.105 [main] Loggerload - sending text on  input field
+[INFO ] 2023-03-24 09:26:43.126 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:44.457 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:44.980 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:44.981 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Implement Linked List in Python page
+[INFO ] 2023-03-24 09:26:44.981 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:45.016 [main] Loggerload - Click on LinkedList Implement Linked List in Python link
+[INFO ] 2023-03-24 09:26:46.413 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:47.075 [main] Loggerload - sending text on  input field
+[INFO ] 2023-03-24 09:26:47.095 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:48.451 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:48.710 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:48.710 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Traversal page
+[INFO ] 2023-03-24 09:26:48.710 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:48.765 [main] Loggerload - Click on LinkedList Traversal link
+[INFO ] 2023-03-24 09:26:50.079 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:50.387 [main] Loggerload - sending text on  input field
+[INFO ] 2023-03-24 09:26:50.403 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:51.662 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:51.940 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:51.940 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Insertion page
+[INFO ] 2023-03-24 09:26:51.940 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:51.983 [main] Loggerload - Click on LinkedList Insertion link
+[INFO ] 2023-03-24 09:26:53.275 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:53.631 [main] Loggerload - sending text on  input field
+[INFO ] 2023-03-24 09:26:53.646 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:54.907 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:55.177 [main] Loggerload - ===============================================================================================
+[INFO ] 2023-03-24 09:26:55.178 [main] Loggerload - [@linkedlist, @linkedlist] : User validate Deletion page
+[INFO ] 2023-03-24 09:26:55.179 [main] Loggerload - -----------------------------------------------------------------------------------------------
+[INFO ] 2023-03-24 09:26:55.224 [main] Loggerload - Click on LinkedList Deletion link
+[INFO ] 2023-03-24 09:26:56.693 [main] Loggerload - Click on dsIntro Try here>>> link
+[INFO ] 2023-03-24 09:26:57.005 [main] Loggerload - sending text on  input field
+[INFO ] 2023-03-24 09:26:57.026 [main] Loggerload - Before sending keys to 
+[INFO ] 2023-03-24 09:26:58.289 [main] Loggerload - Click on dsIntro Run button
+[INFO ] 2023-03-24 09:26:58.686 [main] Loggerload - Closing Driver

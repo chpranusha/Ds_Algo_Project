@@ -5,6 +5,7 @@ import java.util.List;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
+import com.Pageobjects.Arrays;
 import com.Pageobjects.DataStructures;
 import com.Pageobjects.Getstarted;
 import com.Pageobjects.LinkedListPage;
@@ -22,6 +23,7 @@ public class LinkedListStepDef extends BaseClass {
 	Getstarted sp = new Getstarted(Helper.getDriver());
 	LoginPage lp = new LoginPage(Helper.getDriver());
 	DataStructures ds = new DataStructures(Helper.getDriver());
+	Arrays ay= new Arrays(Helper.getDriver());
 	LinkedListPage ll = new LinkedListPage(Helper.getDriver());
 	@When("user click on Get Started button in Linkedlist section")
 	public void user_click_on_get_started_button_in_linkedlist_section()
