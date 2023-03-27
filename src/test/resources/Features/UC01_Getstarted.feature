@@ -1,3 +1,4 @@
+@getstarted
 Feature: Get Started page
 
   Scenario: validation of Start Page

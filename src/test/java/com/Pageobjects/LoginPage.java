@@ -7,11 +7,9 @@ import org.openqa.selenium.support.PageFactory;
 import com.Utils.Helper;
 import com.Utils.Loggerload;
 import com.Utils.Utils;
-public class LoginPage 
 
-{
-	
-	
+	public class LoginPage { 
+
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
