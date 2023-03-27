@@ -34,7 +34,8 @@ Feature: Login
 
     Examples: 
       | username      | password |
-      | swapna321@gmail.com |abc@123        |
+      | swapna321@gmail.com |        |
+  
   @login
   Scenario Outline: signIn validation with inValid inputs
     When user enters invalid "<username>" "<password>" and click on SignIn
