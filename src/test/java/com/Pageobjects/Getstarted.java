@@ -91,7 +91,7 @@ public class Getstarted {
 		public void dropDownSelect() throws InterruptedException {
 			 Thread.sleep(1000);
 			 Utils.webClick(drpdown);
-			 //Loggerload.info("click on getStartedPage "+drpdown.getText()+" button");
+			 Loggerload.info("click on getStartedPage "+drpdown.getText()+" button");
 	    }
 		
 		public void dropDownClick() throws InterruptedException {

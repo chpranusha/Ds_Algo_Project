@@ -1,5 +1,6 @@
 package com.Pageobjects;
 
+
 import org.apache.commons.lang3.StringUtils;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
@@ -12,17 +13,12 @@ import com.Utils.Helper;
 import com.Utils.Loggerload;
 import com.Utils.Utils;
 
-
 public class RegisterPage {
+	public RegisterPage(WebDriver webDriver) {
+		PageFactory.initElements(webDriver, this);
+	}
 
-	public  RegisterPage(WebDriver webDriver)
-	  {
-	   PageFactory.initElements(webDriver, this); //driver initialized
-	  }
-	
-	  //Writing Xpaths for get register page from dropdrown
-
-   WebDriver driver = Helper.getDriver();
+	WebDriver driver = Helper.getDriver();
 	
 	@FindBy(linkText = "Register")
 	@CacheLookup
@@ -51,7 +47,7 @@ public class RegisterPage {
 	@FindBy(linkText = "Sign out")
 	@CacheLookup
 	WebElement signOutLink;
-
+	
 	@FindBy(partialLinkText =  "fill out this")
 	@CacheLookup
 	WebElement alert;
@@ -63,6 +59,7 @@ public class RegisterPage {
 	@FindBy(xpath = "//div[@class='alert alert-primary']")
 	@CacheLookup
 	WebElement passwordMismatch;
+	
 	
 	public void clickRegisterLink() throws Exception {
 		PageFactory.initElements(driver, this);
@@ -167,8 +164,7 @@ public class RegisterPage {
 	
 	
 	public void validateNumericInputs(String pwd1, String pwd2) {
-		if(!(StringUtils.isNumeric(pwd1) && StringUtils.isNumeric(pwd2))) { 
-			//import stringutils of java lang for isNumeric and Stringutils
+		if(!(StringUtils.isNumeric(pwd1) && StringUtils.isNumeric(pwd2))) {
 			// if passwords are not numeric, then fail the test case
 			Assert.fail();
 		}
@@ -177,4 +173,5 @@ public class RegisterPage {
 	public String validatenumeric() {
 	    return passwordMismatch.getText();
 	}
+
 }

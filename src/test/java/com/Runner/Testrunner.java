@@ -14,8 +14,10 @@ import io.cucumber.junit.CucumberOptions;
            // plugin= {"pretty","html:target/cucumber.html","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
   //   "json:target/json-report/cucumber.json","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
 
+
                  	              
 
+                	//tags = "@register",
 
 
 public class Testrunner {

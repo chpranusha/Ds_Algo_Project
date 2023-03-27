@@ -1,5 +1,7 @@
 
 
+
+
 package com.Stepdefinitions;
 
 import org.junit.Assert;
@@ -14,28 +16,23 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class LoginStepDef extends BaseClass 
-
-{
-
-
+public class LoginStepDef extends BaseClass {
+	
+	RegisterPage rp = new RegisterPage(Helper.getDriver());
+	Getstarted sp = new Getstarted(Helper.getDriver()); //opening the browser before register page
+	LoginPage lp = new LoginPage(Helper.getDriver());
+	
 @Given("user opens browser and launch the url{string}")
 public void user_opens_browser_and_launch_the_url (String url) throws InterruptedException
 {
-	rp = new RegisterPage(Helper.getDriver());
-	sp = new Getstarted(Helper.getDriver()); //opening the browser before register page
-	lp = new LoginPage(Helper.getDriver());
 	Helper.openPage(url);
 
 }
-
 @When("user click on {string} button")
 public void user_click_on_button(String getStartedText) throws Exception 
 {
 	sp.clickGetStartedBtn();
 	}
-
-
 
 @When("clicks on signin link")
 public void clicks_on_signin_link() throws Exception  {
@@ -143,4 +140,5 @@ public void user_should_be_able_to_see_error_message(String text) {
 	Assert.assertEquals(text, "Invalid Username and Password");
 	
 }
+
 }

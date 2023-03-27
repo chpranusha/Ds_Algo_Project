@@ -20,7 +20,7 @@ Feature: Register
       |valli123@gmail.com|pratham@23|pratham@23|
 
       @register_002
-  Scenario: Register validation with invalid inputs
+  Scenario Outline: Register validation with invalid inputs
     When user click register link without entering anything
     Then user should get fillout field error message "Please fill out this field." below username field.
     

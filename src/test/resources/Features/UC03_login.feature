@@ -6,6 +6,7 @@ Feature: Login
     Given user opens browser and launch the url"https://dsportalapp.herokuapp.com/"
     When user click on "Get started" button
     And clicks on signin link
+    
     Then user will successfuly able to see signIn page
 
   @login
@@ -21,7 +22,7 @@ Feature: Login
 
     Examples: 
       | username               | password   |
-       |ninjaqueens@gmail.com|ninjaqueens@23|
+       |Pranushadsalgo@gmail.com|ninjaqueens@23|
   @login
   Scenario: signIn validation with inValid inputs
     When user click on signIn without entering anything on textbox
@@ -34,7 +35,8 @@ Feature: Login
 
     Examples: 
       | username      | password |
-      | swapna321@gmail.com |abc@123        |
+      | swapna321@gmail.com |        |
+  
   @login
   Scenario Outline: signIn validation with inValid inputs
     When user enters invalid "<username>" "<password>" and click on SignIn
