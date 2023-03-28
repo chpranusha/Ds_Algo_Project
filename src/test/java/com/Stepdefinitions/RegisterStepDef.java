@@ -52,7 +52,6 @@ public class RegisterStepDef extends BaseClass {
 		rp.clickSignOutLink();
 	}
 	
-	
 	//Scenario: Register validation with invalid inputs
 	@When("user click register link without entering anything")
 	public void user_click_register_link_without_entering_anything() throws Exception {
@@ -60,7 +59,6 @@ public class RegisterStepDef extends BaseClass {
 	}
 	@Then("user should get fillout field error message {string} below username field.")
 	public void user_should_get_fillout_field_error_message_below_password_field(String errorMsg) throws InterruptedException {
-		//Assert.assertEquals(registerPage.validationEmptyFields(), errorMsg);
 		Assert.assertEquals(rp.validationEmptyFields(), errorMsg);
 		
 	}

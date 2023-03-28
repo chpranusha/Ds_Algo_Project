@@ -1,6 +1,5 @@
 @stack
 Feature: Stack
-  
 
   Scenario: User validate Stack Main page
     Given The user is at home page with title "NumpyNinja"

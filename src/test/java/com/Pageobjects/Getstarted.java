@@ -46,6 +46,7 @@ public class Getstarted {
 		@CacheLookup WebElement dropdown_graph;
 	  
 	  @FindBy(xpath = "//div[contains(text(),'You are not logged in')]")
+	  //@FindBy(xpath = "//div[@class = 'alert alert-primary']")
 	  @CacheLookup WebElement startPageErrorMsg;
 	  
 		//@FindBy (xpath="//*[@class='alert alert-primary']")WebElement alert_msg;
@@ -107,9 +108,7 @@ public class Getstarted {
 		public void getStartedClick() throws InterruptedException {
 			 Thread.sleep(1000);
 			 Utils.webClick(getStartedBtn_array);
-	    }
-		
-		
+	    }	
 		
 }  
 	

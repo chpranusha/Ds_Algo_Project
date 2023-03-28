@@ -1,20 +1,12 @@
 @arrays
 Feature: Array
 
-  Scenario: Launch the url
-	Given user open browser and launch the url "https://dsportalapp.herokuapp.com/"
-   When user click  "Get started" button
-   And click on signin link
-   When user enters  "Pranushadsalgo@gmail.com" "ninjaqueens@23"
-   And user click on login button
- 
   @scenario_001
   Scenario: User validate Array Page
    	Given The user is at home page with title "NumpyNinja"
     Then click on Get started button in array
     And It should navigate to corresponding array page with title "Array"
     When user click on Arrays in Phython
-    #And It should navigate to corresponding array page with title "Arrays in Python"
     When user clicks on Try here
     Then It should navigate to corresponding page with title "Assessment"
     When user enter the Python code

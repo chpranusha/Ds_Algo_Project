@@ -30,14 +30,6 @@ public class StackStepDef extends BaseClass {
 	WebDriver driver = Helper.getDriver();
 	Arrays ay= new Arrays(Helper.getDriver());
 	DataStructures ds = new DataStructures(Helper.getDriver());
-
-	
-//	@Given("The user is at home page with title {string}")
-//	public void the_user_is_at_home_page_with_title(String title) throws Exception {
-//		  assertEquals(title, Helper.getDriver().getTitle());
-//
-//	}
-
 	
 	@When("user click on Get Started button on Stack")
 	public void user_click_on_get_started_button_on_stack() {
@@ -51,10 +43,7 @@ public class StackStepDef extends BaseClass {
 	    ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight)");
 	    
 	}
-//	@Then("User navigate back")
-//	public void User_navigate_back() {
-//		driver.navigate().back();
-//	}
+
 	@When("user click on Implementation")
 	public void user_click_on_implementation() {
 		Stp=new StackPage(driver);
@@ -67,13 +56,5 @@ public class StackStepDef extends BaseClass {
 	    Stp=new StackPage(driver);
 		Stp.clickOnApplications();
 	}
-//	@When("user click on Practice Questions")
-//	public void user_click_on_Practice_Questions() {
-//		 Stp=new StackPage(driver);
-//		 Stp.clickonPracticeQuestions();
-//		
-//	}
-//	
-	
 
 }

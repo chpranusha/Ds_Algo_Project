@@ -22,7 +22,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 
-
 public class Utils {
 static String Excelpath = ConfigReader.getexcelfilepath(); //getexcelpath method in configreader
 	

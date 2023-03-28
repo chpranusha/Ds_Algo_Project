@@ -28,6 +28,7 @@ public class ArraysStepDef extends BaseClass {
 	LoginPage lp = new LoginPage(Helper.getDriver());
 	DataStructures ds = new DataStructures(Helper.getDriver());
 	Arrays ay= new Arrays(Helper.getDriver());
+	
 	@Then("click on Get started button in array")
 	public void click_on_get_started_button_in_array() throws Exception {
 		

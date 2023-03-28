@@ -10,6 +10,7 @@ import com.Pageobjects.Getstarted;
 import com.Pageobjects.LoginPage;
 import com.Utils.BaseClass;
 import com.Utils.Helper;
+import com.Utils.ConfigReader;
 
 import io.cucumber.java.en.*;
 
@@ -98,15 +99,9 @@ public class DataStructureStepDef extends BaseClass {
 		ds.clickRunBtn();
 	}
 
-//	@Then("The result should be displayed below the run button")
-//	public void the_result_should_be_displayed_below_the_run_button() {
-//	   
-//	}
-
 	@Then("user is navigated to home page {string}")
-	public void user_is_navigated_to_home_page(String url) {
-		   Helper.getDriver().get(url);
-
+	public void user_is_navigated_to_home_page(String homepage) {
+		   Helper.getDriver().get(homepage);
 	}
 	
 }
