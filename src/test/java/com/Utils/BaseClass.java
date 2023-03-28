@@ -3,6 +3,7 @@ package com.Utils;
 
 import com.Pageobjects.DataStructures;
 import com.Pageobjects.Getstarted;
+import com.Pageobjects.GraphPage;
 import com.Pageobjects.LinkedListPage;
 import com.Pageobjects.LoginPage;
 import com.Pageobjects.QueuePage;
@@ -20,6 +21,6 @@ public Arrays ay;
 public LinkedListPage ll;
 public StackPage Stp;
 public QueuePage qp;
-
+public GraphPage gp;
 
 }
