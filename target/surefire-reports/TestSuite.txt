@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.566 s - in TestSuite
+Tests run: 74, Failures: 8, Errors: 0, Skipped: 0, Time elapsed: 228.953 s <<< FAILURE! - in TestSuite
+com.Runner.Testrunnertestng.runScenario["Register validation with valid inputs", "Optional[Register]"](2)  Time elapsed: 5.017 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+
+com.Runner.Testrunnertestng.runScenario["Register validation with invalid inputs/ password format less than eight characters", "Optional[Register]"](11)  Time elapsed: 4.276 s  <<< FAILURE!
+java.lang.AssertionError: expected [password should contain atleast eight characters.] but found [password_mismatch:The two password fields didn’t match.]
+
+com.Runner.Testrunnertestng.runScenario["Register validation with invalid inputs/  password format all numeric", "Optional[Register]"](12)  Time elapsed: 4.231 s  <<< FAILURE!
+java.lang.AssertionError: expected [please enter valid password format] but found [password_mismatch:The two password fields didn’t match.]
+
+com.Runner.Testrunnertestng.runScenario["Register validation with invalid inputs/ similar fields", "Optional[Register]"](13)  Time elapsed: 4.272 s  <<< FAILURE!
+java.lang.AssertionError: expected [password can not be similar as username] but found [password_mismatch:The two password fields didn’t match.]
+
+com.Runner.Testrunnertestng.runScenario["The user is able to submit code in tryEditor for Search the array link", "Optional[Array]"](27)  Time elapsed: 2.091 s  <<< FAILURE!
+java.lang.AssertionError: Result do not match expected [submission success] but found [ Some Tests failed. Please review code]
+
+com.Runner.Testrunnertestng.runScenario["The user is able to submit code in tryEditor for Max Consecutive Ones", "Optional[Array]"](29)  Time elapsed: 2.543 s  <<< FAILURE!
+java.lang.AssertionError: Result do not match expected [submission success] but found [ Some Tests failed. Please review code]
+
+com.Runner.Testrunnertestng.runScenario["The user is able to submit code in tryEditor for Find Numbers with Even Number of Digits", "Optional[Array]"](31)  Time elapsed: 2.101 s  <<< FAILURE!
+java.lang.AssertionError: Result do not match expected [submission success] but found [Error occurred during submission]
+
+com.Runner.Testrunnertestng.runScenario["The user is able to submit code in tryEditor for Squares of a Sorted Array", "Optional[Array]"](33)  Time elapsed: 2.345 s  <<< FAILURE!
+java.lang.AssertionError: Result do not match expected [submission success] but found [ No tests were collected]
+

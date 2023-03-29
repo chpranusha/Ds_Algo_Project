@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>66/8/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Mar 28 21:07:51 EDT 2023</td>
+<td>Started on:</td><td>Wed Mar 29 16:00:25 EDT 2023</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (14 ms)</td>
+<tr><td>Total time:</td><td>227 seconds (227968 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,5 +67,494 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with valid inputs", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.Stepdefinitions.RegisterStepDef.user_should_be_successfully_able_to_see_the_label_as(RegisterStepDef.java:48)
+	at ?.user should be successfully able to see the label as &quot;New Account Created.&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:14)
+... Removed 7 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1167066016", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1167066016'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at org.testng.Assert.assertEquals(Assert.java:1076)
+	at com.Stepdefinitions.RegisterStepDef.user_should_be_successfully_able_to_see_the_label_as(RegisterStepDef.java:48)
+	at ?.user should be successfully able to see the label as &quot;New Account Created.&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:14)
+</pre></div></td>
+<td>5</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Squares of a Sorted Array", "Optional[Array]"</td>
+<td><div><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [ No tests were collected]
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:182)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1196484930", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1196484930'><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [ No tests were collected]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:182)
+</pre></div></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/  password format all numeric", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [please enter valid password format] but found [password_mismatch:The two password fields didn’t match.]
+	at com.Stepdefinitions.RegisterStepDef.user_should_get_enter_valid_input_error_message(RegisterStepDef.java:159)
+	at ?.user should get enter valid input error message &quot;please enter valid password format&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:93)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1977421716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1977421716'><pre>java.lang.AssertionError: expected [please enter valid password format] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.Stepdefinitions.RegisterStepDef.user_should_get_enter_valid_input_error_message(RegisterStepDef.java:159)
+	at ?.user should get enter valid input error message &quot;please enter valid password format&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:93)
+</pre></div></td>
+<td>4</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/ similar fields", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [password can not be similar as username] but found [password_mismatch:The two password fields didn’t match.]
+	at com.Stepdefinitions.RegisterStepDef.user_should_get_password_not_similar_to_username_error_message(RegisterStepDef.java:171)
+	at ?.user should get password not similar to username error message &quot;password can not be similar as username&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:102)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1113284578", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1113284578'><pre>java.lang.AssertionError: expected [password can not be similar as username] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.Stepdefinitions.RegisterStepDef.user_should_get_password_not_similar_to_username_error_message(RegisterStepDef.java:171)
+	at ?.user should get password not similar to username error message &quot;password can not be similar as username&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:102)
+</pre></div></td>
+<td>4</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Search the array link", "Optional[Array]"</td>
+<td><div><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [ Some Tests failed. Please review code]
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:115)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace787432437", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace787432437'><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [ Some Tests failed. Please review code]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:115)
+</pre></div></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Find Numbers with Even Number of Digits", "Optional[Array]"</td>
+<td><div><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [Error occurred during submission]
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:160)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1184384292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1184384292'><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [Error occurred during submission]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:160)
+</pre></div></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to submit code in tryEditor for Max Consecutive Ones", "Optional[Array]"</td>
+<td><div><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [ Some Tests failed. Please review code]
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:138)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1646033809", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1646033809'><pre>java.lang.AssertionError: Result do not match expected [submission success] but found [ Some Tests failed. Please review code]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at com.Stepdefinitions.ArraysStepDef.the_user_should_be_presented_with_successful_submission_message(ArraysStepDef.java:139)
+	at ?.The user should be presented with successful submission message(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC05_Arrays.feature:138)
+</pre></div></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/ password format less than eight characters", "Optional[Register]"</td>
+<td><div><pre>java.lang.AssertionError: expected [password should contain atleast eight characters.] but found [password_mismatch:The two password fields didn’t match.]
+	at com.Stepdefinitions.RegisterStepDef.user_should_get_password_atleast_eight_char_error_message(RegisterStepDef.java:145)
+	at ?.user should get password atleast eight char error message &quot;password should contain atleast eight characters.&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:85)
+... Removed 6 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1239710170", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1239710170'><pre>java.lang.AssertionError: expected [password should contain atleast eight characters.] but found [password_mismatch:The two password fields didn’t match.]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at com.Stepdefinitions.RegisterStepDef.user_should_get_password_atleast_eight_char_error_message(RegisterStepDef.java:145)
+	at ?.user should get password atleast eight char error message &quot;password should contain atleast eight characters.&quot;(file:///C:/Users/janga/eclipse-workspace/DSAlgosample/src/test/resources/Features/UC02_register.feature:85)
+</pre></div></td>
+<td>4</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Binary Trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in tryEditor for Max Consecutive Ones", "Optional[Array]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Array Page", "Optional[Array]"</td>
+<td></td>
+<td>4</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Search the array link", "Optional[Array]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Applications of Binary trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Max Consecutive Ones page", "Optional[Array]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Types of Trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Terminologies link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/blank fields", "Optional[Register]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Find Numbers with Even Number of Digits", "Optional[Array]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Queue Operations page", "Optional[Queue]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validating Linked List introduction page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/ password mismatch", "Optional[Register]"</td>
+<td></td>
+<td>4</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/blank fields", "Optional[Register]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Implementation in Python link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/blank fields", "Optional[Register]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "signIn validation with inValid inputs", "Optional[Login]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/blank fields", "Optional[Register]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Types of Linked List page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Applications of Array page", "Optional[Array]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to Graph Data Structure Page", "Optional[Graph]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Implementation of Queue in Python page", "Optional[Queue]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Implementation using array page", "Optional[Queue]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Implementation of queue page", "Optional[Queue]"</td>
+<td></td>
+<td>1</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Sorted Array page", "Optional[Array]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Basic Operations in list page", "Optional[Array]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Get Started On Graph page", "Optional[Graph]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Sorted Array page", "Optional[Array]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Deletion page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Binary Search Trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with valid inputs", "Optional[Register]"</td>
+<td></td>
+<td>6</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Traversal page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate overview of trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Arrays in Python page", "Optional[Array]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Even Number page", "Optional[Array]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to graph representations page and click on Practice Questions", "Optional[Graph]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for code with invalid syntax in tryEditor for Squares of a Sorted Array", "Optional[Array]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Even Number page", "Optional[Array]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Implementation using collections.deque page", "Optional[Queue]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Tree Traversals link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Creating Linked List page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Graph Representations page", "Optional[Graph]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Implement Linked List in Python page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Stack Main page", "Optional[Stack]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Search the array page", "Optional[Array]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able to navigate to QueueOp page and click on Practice Questions", "Optional[Queue]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Implementation of Binary Trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs", "Optional[Register]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is presented with error message for invalid code in Editor for Graph page", "Optional[Graph]"</td>
+<td></td>
+<td>1</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "signIn validation with inValid inputs", "Optional[Login]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Types of Binary Trees link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "signIn validation with inValid inputs", "Optional[Login]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "signIn validation with valid inputs", "Optional[Login]"</td>
+<td></td>
+<td>4</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Practice Questions page", "Optional[Stack]"</td>
+<td></td>
+<td>0</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "The user is able run code in Editor for Implementation of queue page", "Optional[Queue]"</td>
+<td></td>
+<td>1</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Arrays using list page", "Optional[Array]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Insertion page", "Optional[LinkedList]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Implementation Of BST link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Implementation page", "Optional[Stack]"</td>
+<td></td>
+<td>2</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Binary Tree Traversals link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Data Structure Intro Page Validation", "Optional[Data Structure Intro]"</td>
+<td></td>
+<td>8</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Max Consecutive Ones page", "Optional[Array]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "validation of Start Page", "Optional[Get Started page]"</td>
+<td></td>
+<td>8</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Traversals-Illustration link", "Optional[Tree]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User validate Applications page", "Optional[Stack]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+<tr>
+<td title='com.Runner.Testrunnertestng.runScenario()'><b>runScenario</b><br>Test class: com.Runner.Testrunnertestng<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Register validation with invalid inputs/blank fields", "Optional[Register]"</td>
+<td></td>
+<td>3</td>
+<td>com.Runner.Testrunnertestng@47eaca72</td></tr>
+</table><p>
 </body>
 </html>
