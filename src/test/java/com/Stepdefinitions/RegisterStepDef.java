@@ -13,10 +13,11 @@ import io.cucumber.java.en.When;
 
 public class RegisterStepDef extends BaseClass {
 	
+	RegisterPage rp = new RegisterPage(Helper.getDriver());
+	Getstarted sp = new Getstarted(Helper.getDriver());
+
 	@Given("user opens browser and launch the url {string}")
 	public void user_opens_browser_and_launch_the_url(String url) throws InterruptedException {
-		rp = new RegisterPage(Helper.getDriver());
-		sp = new Getstarted(Helper.getDriver());
 	    Helper.openPage(url);	    
 	}
 	
